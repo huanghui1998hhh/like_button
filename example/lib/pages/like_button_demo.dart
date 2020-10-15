@@ -28,7 +28,7 @@ class _LikeButtonDemoState extends State<LikeButtonDemo> {
       ),
       body: GridView(
         gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-            maxCrossAxisExtent: 300),
+            maxCrossAxisExtent: 300.0),
         children: <Widget>[
           LikeButton(
             size: buttonSize,
